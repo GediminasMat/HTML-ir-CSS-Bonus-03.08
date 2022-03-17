@@ -30,6 +30,7 @@ nav a{
 }
 .hero-container{
     background:cornflowerblue;
+    background-repeat: repeat;
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 95vh;
@@ -71,9 +72,12 @@ button:hover{
     width: 100%;
     height: 100%;
 }
+.fullColor{
+    background:cornflowerblue;
+}
+
 @media screen and (max-width: 768px) {
     .hero-container{
         grid-template-columns: 1fr;
     }
 }
-
